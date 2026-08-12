@@ -43,15 +43,6 @@ OminiShell provides an interactive command-line interface (CLI) for security res
 * **Runtime:** Python 3.x
 * **Shell:** Bash
 
-### Recommended Laboratory Architecture
-
-┌───────────────────────────────┐        Host-Only Network        ┌───────────────────────────────┐
-│     Attacker / Research       │ ◄─────────────────────────────► │      Isolated Target VM       │
-│      (Kali Linux Machine)     │                                 │     (Windows Target OS)       │
-│     Running: OminiShell CLI   │                                 │   Monitored via EDR / Sysmon  │
-└───────────────────────────────┘                                 └───────────────────────────────┘
-
-
 * **Target System:** Disposable Windows Virtual Machine in a Host-Only network layout.
 * **Monitoring:** Enable Sysmon and Windows Event Logging to capture behavior.
 * **Protection:** Ensure frequent VM snapshots to reset the environment post-testing.
