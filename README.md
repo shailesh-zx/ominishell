@@ -271,10 +271,13 @@ If you find **OminiShell** useful for authorized cybersecurity research or educa
 
 ---
 
-## 📄 License
+📄 License
 
-See the repository's `LICENSE` file for the applicable licensing terms.
+OminiShell is released under the MIT License.
 
+You are free to use, copy, modify, merge, publish, distribute, sublicense, and sell copies of the software, subject to the conditions of the MIT License.
+
+See the LICENSE file for the complete license text.
 ---
 
 <div align="center">
